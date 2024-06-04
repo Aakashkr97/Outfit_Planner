@@ -1,3 +1,4 @@
+
 import React from "react";
 
 // reactstrap components
@@ -21,7 +22,7 @@ import {
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 
-class Login extends React.Component {
+class LoginPage extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
@@ -30,20 +31,13 @@ class Login extends React.Component {
   render() {
     return (
       <>
-        <DemoNavbar />
+        {/* <DemoNavbar /> */}
         <main ref="main">
-          <section className="section section-shaped section-lg">
+          <section className="section section-shaped ">
             <div className="shape shape-style-1 bg-gradient-default">
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
+             
             </div>
-            <Container className="pt-lg-7">
+            <Container className="">
               <Row className="justify-content-center">
                 <Col lg="5">
                   <Card className="bg-secondary shadow border-0">
@@ -155,8 +149,8 @@ class Login extends React.Component {
                     <Col className="text-right" xs="6">
                       <a
                         className="text-light"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="register"
+                       
                       >
                         <small>Create new account</small>
                       </a>
@@ -167,10 +161,10 @@ class Login extends React.Component {
             </Container>
           </section>
         </main>
-        <SimpleFooter />
+        {/* <SimpleFooter /> */}
       </>
     );
   }
 }
 
-export default Login;
+export default LoginPage;

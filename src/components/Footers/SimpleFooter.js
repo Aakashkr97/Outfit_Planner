@@ -38,7 +38,7 @@ class SimpleFooter extends React.Component {
             <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
                 <h3 className=" text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                  Thank you for visiting us!
                 </h3>
                 <h4 className=" mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
@@ -112,7 +112,7 @@ class SimpleFooter extends React.Component {
                     href="https://www.creative-tim.com?ref=adsr-footer"
                     target="_blank"
                   >
-                    Creative Tim
+                    C.O.D.E.
                   </a>
                   .
                 </div>
@@ -124,7 +124,7 @@ class SimpleFooter extends React.Component {
                       href="https://www.creative-tim.com?ref=adsr-footer"
                       target="_blank"
                     >
-                      Creative Tim
+                      {/* Creative Tim */}
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -148,7 +148,7 @@ class SimpleFooter extends React.Component {
                       href="https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md"
                       target="_blank"
                     >
-                      MIT License
+                      {/* MIT License */}
                     </NavLink>
                   </NavItem>
                 </Nav>

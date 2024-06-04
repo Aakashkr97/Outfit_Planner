@@ -1,8 +1,7 @@
 import React from "react";
-// nodejs library that concatenates classes
+
 import classnames from "classnames";
 
-// reactstrap components
 import {
   Badge,
   Button,
@@ -24,9 +23,9 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
-import Download from "../IndexSections/Download.js";
+import Download from "views/IndexSections/Download";
 
-class Landing extends React.Component {
+class Homepage extends React.Component {
   state = {};
   componentDidMount() {
     document.documentElement.scrollTop = 0;
@@ -853,4 +852,4 @@ class Landing extends React.Component {
   }
 }
 
-export default Landing;
+export default Homepage;
